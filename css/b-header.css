@@ -1,0 +1,86 @@
+header {
+  background-color: #3784ca;
+  height: 180px;
+  background-image: url("../images/header-bg.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#headercontainer {
+  height: 180px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0px auto;
+  background-image: url("../images/CAU-logo-light.png");
+  background-position: 5px center;
+  background-repeat: no-repeat; }
+
+#headercontainer h4 {
+  font-size: 240%;
+  padding-left: 30%;
+  padding-top: 40px;
+  margin: 0;
+  color: white;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.45); }
+
+#headercontainer p {
+  padding-left: 30%;
+  margin-top: 5px;
+  color: white;
+  font-weight: 400;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.45); }
+
+nav {
+  height: 40px;
+  background-color: #1f2733;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.24); }
+
+.nav__fixed {
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  z-index: 15; }
+
+#navcontainer {
+  background-color: #1c2026;
+  height: 40px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+nav ul, nav li, nav a {
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+nav ul li {
+  display: block;
+  width: 14.28%;
+  float: left;
+  text-align: center; }
+
+nav li:hover ul {
+  display: block; }
+
+nav a {
+  padding-top: 9px;
+  height: 31px;
+  background-color: #1c2026;
+  color: white; }
+
+nav a:hover {
+  text-decoration: none; }
+
+nav li ul {
+  position: absolute;
+  z-index: 100;
+  width: 120%;
+  margin-left: -10%;
+  display: none; }
+
+nav li ul li {
+  width: 100%;
+  height: auto; }

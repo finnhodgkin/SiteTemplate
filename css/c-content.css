@@ -1,0 +1,85 @@
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 35px;
+  display: block; }
+
+main header {
+  height: auto;
+  background-color: transparent;
+  background-image: none; }
+
+article {
+  width: 70%;
+  float: right; }
+
+aside {
+  width: 27%;
+  padding-right: 3%;
+  float: left; }
+
+header p {
+  font-weight: 600; }
+
+aside nav {
+  height: auto; }
+
+aside nav li {
+  width: 100%;
+  float: none;
+  text-align: left; }
+
+aside nav a {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  color: #b15555;
+  display: block; }
+
+aside nav a:hover {
+  color: #484848; }
+
+.signupsidewrap {
+  width: 100%;
+  overflow: hidden; }
+
+.signupside {
+  background-color: #bd726c;
+  color: white;
+  width: 200%;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  position: relative; }
+
+.signupside a {
+  text-decoration: none; }
+
+.signupside:hover {
+  margin-left: -100%; }
+
+.signupside p, .signupside h2 {
+  width: 50%; }
+
+.signupside p b {
+  font-weight: 700;
+  color: #b15555; }
+
+.signupside p {
+  width: 46.5%;
+  padding: 2%;
+  margin: 0;
+  background-color: #f6f6f6;
+  color: #484848;
+  text-decoration: none; }
+
+.signupside h3 {
+  position: absolute;
+  width: 50%;
+  top: 22%;
+  left: 50%;
+  text-align: center; }
+
+aside nav {
+  background-color: transparent;
+  box-shadow: none; }

@@ -82,4 +82,6 @@ aside nav a:hover {
 
 aside nav {
   background-color: transparent;
-  box-shadow: none; }
+  box-shadow: none;
+  clear: both;
+  margin-top: 0; }

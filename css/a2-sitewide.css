@@ -57,7 +57,7 @@ ul a:hover {
   position: absolute; }
 
 .anchor-span {
-  opacity: 0; }
+  display: none; }
 
 .anchor-span a {
   color: #757575; }
@@ -66,7 +66,7 @@ ul a:hover {
   color: #b15555; }
 
 h2:hover .anchor-span {
-  opacity: 1; }
+  display: inline; }
 
 h1:hover .anchor-span {
-  opacity: 1; }
+  display: inline; }

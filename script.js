@@ -8,10 +8,10 @@ function applyAnchor(tag) {
       anchorName = elements[i].innerHTML.replace(/ /g, '-');
       div = document.createElement('div');
             div.id = anchorName;
-            div.classList = 'anchor';
+            div.className = 'anchor';
       span = document.createElement('span');
              span.appendChild(document.createTextNode(' '));
-             span.classList = 'anchor-span';
+             span.className = 'anchor-span';
       link = document.createElement('a');
              link.appendChild(document.createTextNode('#'));
              link.href = '#' + anchorName;
@@ -68,19 +68,6 @@ buildContents('tableOfContents');
 (function navbar(nav) {
   var item = document.getElementsByTagName(nav)[0]; // first nav in doc
   var height = document.getElementById('headercontainer').clientHeight;
-  function scroll(loc) {
-    if (loc > height) {
-      console.log(item.classList);
-      if (!item.classList.contains('nav__fixed')) {
-        item.classList = 'nav__fixed';
-      }
-    } else {
-      if (item.classList.contains('nav__fixed')) {
-        item.classList = '';
-      }
-    }
-  }
-  window.onscroll = function (e) {
-    scroll(e.pageY);
-  };
+  function scroll(loc) { item.className = loc > height ? 'nav__fixed' : ''; }
+  window.onscroll = function (e) { if (e.pageY) { scroll(e.pageY); } };
 })('nav');
